@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/librobot_core.a CMakeFiles/robot_core.dir/src/action.cpp.o
+/usr/bin/ranlib lib/librobot_core.a

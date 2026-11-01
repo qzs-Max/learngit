@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/robot_demo.dir/app/main.cpp.o -o bin/robot_demo  lib/librobot_core.a 
