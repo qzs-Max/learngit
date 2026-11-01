@@ -1,4 +1,0 @@
-/home/cqu/projects/learn/第二部分：编程基础/project1/build/CMakeFiles/robot_core.dir
-/home/cqu/projects/learn/第二部分：编程基础/project1/build/CMakeFiles/robot_demo.dir
-/home/cqu/projects/learn/第二部分：编程基础/project1/build/CMakeFiles/edit_cache.dir
-/home/cqu/projects/learn/第二部分：编程基础/project1/build/CMakeFiles/rebuild_cache.dir

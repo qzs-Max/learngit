@@ -1,0 +1,51 @@
+# ---- 编译产物（CMake / Make / gcc / g++）----
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.out
+*.exe
+*.d
+robot_demo
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- 编辑器 ----
+.vscode/ipch/
+.idea/
+*.swp
+*~
+
+# ---- 系统文件 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 日志与临时文件 ----
+*.log
+tmp/
+.cache/
+
+# ---- 大文件不入库 ----
+*.onnx
+*.pt
+*.pth
+*.h5
+*.mp4
+*.avi
+datasets/
+runs/
