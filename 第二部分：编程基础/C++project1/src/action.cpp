@@ -47,6 +47,9 @@ public:
                 cin >> value;
                 wave w(value);
                 w.work(w.name, w.value, w.unit);
+            }else if (order == 0) {
+                cout << "exit" << endl;
+                break;    
             } else {
                 cout << "invalid order" << endl;
             }
