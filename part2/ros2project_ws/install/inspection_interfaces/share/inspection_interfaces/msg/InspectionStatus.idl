@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from inspection_interfaces/msg/InspectionStatus.msg
+// generated code does not contain a copyright notice
+
+
+module inspection_interfaces {
+  module msg {
+    struct InspectionStatus {
+      string name;
+
+      double location_x;
+
+      double location_y;
+
+      double v;
+
+      int32 battery;
+
+      string status;
+    };
+  };
+};
