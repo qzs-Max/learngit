@@ -99,6 +99,15 @@ int main() {
         
     }
     cout <<"Armor detected: "<< n << endl;
+    
+    std::string text = "Armor: " + std::to_string(n);
+    cv::putText(img, text,
+            cv::Point(20, 40),
+            cv::FONT_HERSHEY_SIMPLEX,
+            1.0,
+            cv::Scalar(0, 0, 255),
+            2,
+            cv::LINE_AA);
     imshow("img", img);
     // imshow("img_cp", img_cp);
     cv::waitKey(0);
